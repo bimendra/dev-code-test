@@ -24,7 +24,7 @@ export class AuthService {
           sub: userId,
         },
         {
-          secret: process.env.ACCESS_TOKEN_KEY,
+          secret: 'lSMKSb1yrrirXfVh7bCruQwiB0QVH1b8',
           expiresIn: 60 * 15,
         },
       ),
@@ -34,7 +34,7 @@ export class AuthService {
           sub: userId,
         },
         {
-          secret: process.env.REFRESH_TOKEN_KEY,
+          secret: 'QNILob9IuU35oa0BKrubQmKDDIcHSmni',
           expiresIn: 60 * 15 * 24,
         },
       ),
